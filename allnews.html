@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All News - BUZZED CREATIVE</title>
+    <link rel="stylesheet" href="allnews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>BUZZED <span>CREATIVE</span></h1>
+            </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#payment">Payment</a></li>
+                    <li><a href="index.html#pricing">Packages</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="allnews.html">News</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-right">
+                <a href="index.html#contact" class="btn-contact">Contact Us</a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- All News Section -->
+    <section class="all-news">
+        <div class="container">
+            <div class="section-header">
+                <h1>Latest News & Updates</h1>
+                <p>Stay informed with the latest trends and insights in digital marketing</p>
+            </div>
+            
+            <div class="news-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="seo">SEO</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="content">Content</button>
+                <button class="filter-btn" data-filter="trends">Trends</button>
+            </div>
+            
+            <div class="news-grid">
+                <div class="news-item" data-category="social">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="TikTok Algorithm">
+                        <div class="news-date">June 15, 2023</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Social Media</span>
+                        <h3><a href="news.html?id=1">New TikTok Algorithm Changes</a></h3>
+                        <p>Learn how the latest TikTok algorithm updates affect your marketing strategy and how to adapt.</p>
+                        <a href="news.html?id=1" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-item" data-category="seo">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="SEO Trends">
+                        <div class="news-date">June 10, 2023</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">SEO</span>
+                        <h3><a href="news.html?id=2">SEO Trends for 2023</a></h3>
+                        <p>Discover the most important SEO trends that will dominate the digital landscape this year.</p>
+                        <a href="news.html?id=2" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-item" data-category="social">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Instagram Reels">
+                        <div class="news-date">June 5, 2023</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Social Media</span>
+                        <h3><a href="news.html?id=3">Instagram Reels Best Practices</a></h3>
+                        <p>Maximize your reach with these proven strategies for creating engaging Instagram Reels content.</p>
+                        <a href="news.html?id=3" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-item" data-category="content">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Content Marketing">
+                        <div class="news-date">May 28, 2023</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Content</span>
+                        <h3><a href="news.html?id=4">Content Marketing Strategies</a></h3>
+                        <p>Learn how to develop a content marketing strategy that drives traffic and conversions.</p>
+                        <a href="news.html?id=4" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-item" data-category="trends">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Digital Trends">
+                        <div class="news-date">May 20, 2023</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">Trends</span>
+                        <h3><a href="news.html?id=5">Emerging Digital Marketing Trends</a></h3>
+                        <p>Stay ahead of the curve with these emerging trends in digital marketing for 2023.</p>
+                        <a href="news.html?id=5" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-item" data-category="seo">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="SEO Tools">
+                        <div class="news-date">May 15, 2023</div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">SEO</span>
+                        <h3><a href="news.html?id=6">Must-Have SEO Tools for 2023</a></h3>
+                        <p>Discover the essential SEO tools that will help you optimize your website and content.</p>
+                        <a href="news.html?id=6" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="page-btn active">1</a>
+                <a href="#" class="page-btn">2</a>
+                <a href="#" class="page-btn">3</a>
+                <a href="#" class="page-btn next">Next <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BUZZED CREATIVE</h3>
+                    <p>Digital marketing solutions to amplify your brand's online presence through strategic content and buzzer marketing.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +62 896 6343 1927</p>
+                    <p><i class="fas fa-envelope"></i> hello@buzzedcreative.com</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: +62 896 6343 1927</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#payment">Payment</a></li>
+                        <li><a href="index.html#pricing">Packages</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="allnews.html">News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BUZZED CREATIVE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/allnews.js"></script>
+</body>
+</html>
